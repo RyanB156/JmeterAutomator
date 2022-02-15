@@ -1,0 +1,44 @@
+2022-02-15 13:33:01,441 INFO o.a.j.u.JMeterUtils: Setting Locale to en_EN
+2022-02-15 13:33:01,449 INFO o.a.j.JMeter: Loading user properties from: user.properties
+2022-02-15 13:33:01,450 INFO o.a.j.JMeter: Loading system properties from: system.properties
+2022-02-15 13:33:01,455 INFO o.a.j.JMeter: Copyright (c) 1998-2021 The Apache Software Foundation
+2022-02-15 13:33:01,455 INFO o.a.j.JMeter: Version 5.4.3
+2022-02-15 13:33:01,456 INFO o.a.j.JMeter: java.version=1.8.0_301
+2022-02-15 13:33:01,456 INFO o.a.j.JMeter: java.vm.name=Java HotSpot(TM) 64-Bit Server VM
+2022-02-15 13:33:01,456 INFO o.a.j.JMeter: os.name=Windows 10
+2022-02-15 13:33:01,456 INFO o.a.j.JMeter: os.arch=amd64
+2022-02-15 13:33:01,456 INFO o.a.j.JMeter: os.version=10.0
+2022-02-15 13:33:01,456 INFO o.a.j.JMeter: file.encoding=Cp1252
+2022-02-15 13:33:01,456 INFO o.a.j.JMeter: java.awt.headless=null
+2022-02-15 13:33:01,456 INFO o.a.j.JMeter: Max memory     =12884901888
+2022-02-15 13:33:01,456 INFO o.a.j.JMeter: Available Processors =12
+2022-02-15 13:33:01,459 INFO o.a.j.JMeter: Default Locale=English (EN)
+2022-02-15 13:33:01,459 INFO o.a.j.JMeter: JMeter  Locale=English (EN)
+2022-02-15 13:33:01,459 INFO o.a.j.JMeter: JMeterHome=C:\Users\bress\Documents\projects\UserLoadTestRunner\jmeter
+2022-02-15 13:33:01,459 INFO o.a.j.JMeter: user.dir  =C:\Users\bress\Documents\projects\UserLoadTestRunner\jmeter\bin
+2022-02-15 13:33:01,460 INFO o.a.j.JMeter: PWD       =C:\Users\bress\Documents\projects\UserLoadTestRunner\jmeter\bin
+2022-02-15 13:33:01,491 INFO o.a.j.JMeter: IP: 192.168.1.172 Name: ryan-pc FullName: ryan-pc.lan1
+2022-02-15 13:33:01,552 INFO o.a.j.JMeter: Setting LAF to: com.github.weisj.darklaf.DarkLaf:com.github.weisj.darklaf.theme.DarculaTheme
+2022-02-15 13:33:01,826 INFO o.a.j.JMeter: Loaded icon properties from org/apache/jmeter/images/icon.properties
+2022-02-15 13:33:12,586 INFO o.a.j.s.FileServer: Default base='C:\Users\bress\Documents\projects\UserLoadTestRunner\jmeter\bin'
+2022-02-15 13:33:12,588 INFO o.a.j.g.a.Load: Loading file: C:\Users\bress\Documents\projects\UserLoadTestRunner\jmeter\bin\test_scripts\EventHistory\EventHistorySunnyDay.jmx
+2022-02-15 13:33:12,589 INFO o.a.j.s.FileServer: Set new base='C:\Users\bress\Documents\projects\UserLoadTestRunner\jmeter\bin\test_scripts\EventHistory'
+2022-02-15 13:33:12,673 INFO o.a.j.s.SaveService: Testplan (JMX) version: 2.2. Testlog (JTL) version: 2.2
+2022-02-15 13:33:12,683 INFO o.a.j.s.SaveService: Using SaveService properties file encoding UTF-8
+2022-02-15 13:33:12,684 INFO o.a.j.s.SaveService: Using SaveService properties version 5.0
+2022-02-15 13:33:12,686 INFO o.a.j.s.SaveService: Loading file: C:\Users\bress\Documents\projects\UserLoadTestRunner\jmeter\bin\test_scripts\EventHistory\EventHistorySunnyDay.jmx
+2022-02-15 13:33:12,704 INFO o.a.j.p.h.c.CookieManager: Settings: Delete null: true Check: true Allow variable: true Save: false Prefix: COOKIE_
+2022-02-15 13:33:12,707 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/html is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2022-02-15 13:33:12,707 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for application/xhtml+xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2022-02-15 13:33:12,708 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for application/xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2022-02-15 13:33:12,708 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2022-02-15 13:33:12,708 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/vnd.wap.wml is org.apache.jmeter.protocol.http.parser.RegexpHTMLParser
+2022-02-15 13:33:12,708 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/css is org.apache.jmeter.protocol.http.parser.CssParser
+2022-02-15 13:33:13,024 INFO o.a.j.e.KeyToolUtils: Exception checking for keytool existence, will return false, try another way.
+2022-02-15 13:33:13,145 INFO o.a.j.e.KeyToolUtils: keytool found at 'C:\Program Files\Java\jre1.8.0_301\bin\keytool'
+2022-02-15 13:33:13,146 INFO o.a.j.p.h.p.ProxyControl: HTTP(S) Test Script Recorder SSL Proxy will use keys that support embedded 3rd party resources in file C:\Users\bress\Documents\projects\UserLoadTestRunner\jmeter\bin\proxyserver.jks
+2022-02-15 13:33:13,264 INFO o.a.j.s.SampleResult: Note: Sample TimeStamps are START times
+2022-02-15 13:33:13,264 INFO o.a.j.s.SampleResult: sampleresult.default.encoding is set to ISO-8859-1
+2022-02-15 13:33:13,264 INFO o.a.j.s.SampleResult: sampleresult.useNanoTime=true
+2022-02-15 13:33:13,264 INFO o.a.j.s.SampleResult: sampleresult.nanoThreadSleep=5000
+2022-02-15 13:33:14,440 INFO o.a.j.s.FileServer: Set new base='C:\Users\bress\Documents\projects\UserLoadTestRunner\jmeter\bin\test_scripts\EventHistory'
