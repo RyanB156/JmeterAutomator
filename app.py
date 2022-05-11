@@ -21,7 +21,7 @@ class Window(QMainWindow, Ui_testRunWindow):
         self.filename = ''
         self.selected_files = ''
 
-        # Setup example tree where all elements are checkable, in cascasde fashion
+        # Setup example tree where all elements are checkable, in cascade fashion
         for i in range(3):
             parent = QtWidgets.QTreeWidgetItem(self.treeWidget)
             parent.setText(0, "dir_{}/".format(i))
@@ -37,7 +37,7 @@ class Window(QMainWindow, Ui_testRunWindow):
 
     def vrfs_selected(self):
         """
-        Prints out the selected items in the tree whenver the tree state is updated
+        Prints out the selected items in the tree whenever the tree state is updated
         :return: None
         """
         iterator = QtWidgets.QTreeWidgetItemIterator(self.treeWidget, QtWidgets.QTreeWidgetItemIterator.Checked)
@@ -65,6 +65,9 @@ class Window(QMainWindow, Ui_testRunWindow):
         self.actionAbout.triggered.connect(self.about)"""
         self.action_Open.triggered.connect(self.on_open)
 
+    def on_select_folder(self):
+        pass
+
     def on_open(self):
         """
         Try to set text edit content to the contents of the file
@@ -85,7 +88,7 @@ class Window(QMainWindow, Ui_testRunWindow):
         options = QFileDialog.Options()
         options |= QFileDialog.DontUseNativeDialog
         file, _ = QFileDialog.getOpenFileName(self, "QFileDialog.getOpenFileName()", "",
-                                              "All Files (*);;Python Files (*.py)", options=options)
+                                              "All Files (*);;Jmeter Files (*.jmx)", options=options)
         return file
 
     def save_file(self):
